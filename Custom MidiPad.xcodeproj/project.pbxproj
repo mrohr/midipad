@@ -1,0 +1,374 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		848FF72415B49F20004E97E6 /* PGMidi.mm in Sources */ = {isa = PBXBuildFile; fileRef = 848FF71F15B49F20004E97E6 /* PGMidi.mm */; };
+		848FF72515B49F20004E97E6 /* PGMidiAllSources.mm in Sources */ = {isa = PBXBuildFile; fileRef = 848FF72115B49F20004E97E6 /* PGMidiAllSources.mm */; };
+		848FF72615B49F20004E97E6 /* PGMidiFind.mm in Sources */ = {isa = PBXBuildFile; fileRef = 848FF72315B49F20004E97E6 /* PGMidiFind.mm */; };
+		848FF72815B49F2C004E97E6 /* CoreMIDI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 848FF72715B49F2C004E97E6 /* CoreMIDI.framework */; };
+		848FF73015B4AFEE004E97E6 /* CMPPadDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 848FF72F15B4AFEE004E97E6 /* CMPPadDetailsViewController.m */; };
+		848FF73315B5B0C2004E97E6 /* grayscalebutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 848FF73115B5B0C2004E97E6 /* grayscalebutton.png */; };
+		848FF73415B5B0C2004E97E6 /* grayscalebutton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 848FF73215B5B0C2004E97E6 /* grayscalebutton@2x.png */; };
+		848FF73715B5B53C004E97E6 /* deletebutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 848FF73515B5B53C004E97E6 /* deletebutton.png */; };
+		848FF73815B5B53C004E97E6 /* deletebutton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 848FF73615B5B53C004E97E6 /* deletebutton@2x.png */; };
+		848FF73A15B5DC5B004E97E6 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 848FF73915B5DC5B004E97E6 /* QuartzCore.framework */; };
+		848FF74315B5F768004E97E6 /* storedSettings.plist in Resources */ = {isa = PBXBuildFile; fileRef = 848FF74215B5F768004E97E6 /* storedSettings.plist */; };
+		848FF74E15B61679004E97E6 /* status-light.png in Resources */ = {isa = PBXBuildFile; fileRef = 848FF74C15B61679004E97E6 /* status-light.png */; };
+		848FF74F15B61679004E97E6 /* status-light@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 848FF74D15B61679004E97E6 /* status-light@2x.png */; };
+		848FF75115B73380004E97E6 /* CMPViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 848FF75015B73380004E97E6 /* CMPViewController.mm */; };
+		84D5C52F156D8F980092CD24 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84D5C52E156D8F980092CD24 /* UIKit.framework */; };
+		84D5C531156D8F980092CD24 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84D5C530156D8F980092CD24 /* Foundation.framework */; };
+		84D5C533156D8F980092CD24 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84D5C532156D8F980092CD24 /* CoreGraphics.framework */; };
+		84D5C539156D8F980092CD24 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84D5C537156D8F980092CD24 /* InfoPlist.strings */; };
+		84D5C53B156D8F990092CD24 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D5C53A156D8F990092CD24 /* main.m */; };
+		84D5C53F156D8F990092CD24 /* CMPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D5C53E156D8F990092CD24 /* CMPAppDelegate.m */; };
+		84D5C545156D8F990092CD24 /* CMPViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84D5C543156D8F990092CD24 /* CMPViewController_iPhone.xib */; };
+		84D5C548156D8F990092CD24 /* CMPViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84D5C546156D8F990092CD24 /* CMPViewController_iPad.xib */; };
+		84D5C550156D90020092CD24 /* CMPPadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D5C54F156D90020092CD24 /* CMPPadView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		848FF71C15B49F20004E97E6 /* iOSVersionDetection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iOSVersionDetection.h; sourceTree = "<group>"; };
+		848FF71D15B49F20004E97E6 /* PGArc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PGArc.h; sourceTree = "<group>"; };
+		848FF71E15B49F20004E97E6 /* PGMidi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PGMidi.h; sourceTree = "<group>"; };
+		848FF71F15B49F20004E97E6 /* PGMidi.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = PGMidi.mm; sourceTree = "<group>"; };
+		848FF72015B49F20004E97E6 /* PGMidiAllSources.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PGMidiAllSources.h; sourceTree = "<group>"; };
+		848FF72115B49F20004E97E6 /* PGMidiAllSources.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = PGMidiAllSources.mm; sourceTree = "<group>"; };
+		848FF72215B49F20004E97E6 /* PGMidiFind.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PGMidiFind.h; sourceTree = "<group>"; };
+		848FF72315B49F20004E97E6 /* PGMidiFind.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = PGMidiFind.mm; sourceTree = "<group>"; };
+		848FF72715B49F2C004E97E6 /* CoreMIDI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMIDI.framework; path = System/Library/Frameworks/CoreMIDI.framework; sourceTree = SDKROOT; };
+		848FF72E15B4AFEE004E97E6 /* CMPPadDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMPPadDetailsViewController.h; sourceTree = "<group>"; };
+		848FF72F15B4AFEE004E97E6 /* CMPPadDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMPPadDetailsViewController.m; sourceTree = "<group>"; };
+		848FF73115B5B0C2004E97E6 /* grayscalebutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grayscalebutton.png; sourceTree = "<group>"; };
+		848FF73215B5B0C2004E97E6 /* grayscalebutton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "grayscalebutton@2x.png"; sourceTree = "<group>"; };
+		848FF73515B5B53C004E97E6 /* deletebutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = deletebutton.png; sourceTree = "<group>"; };
+		848FF73615B5B53C004E97E6 /* deletebutton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "deletebutton@2x.png"; sourceTree = "<group>"; };
+		848FF73915B5DC5B004E97E6 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		848FF74215B5F768004E97E6 /* storedSettings.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = storedSettings.plist; sourceTree = "<group>"; };
+		848FF74C15B61679004E97E6 /* status-light.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "status-light.png"; sourceTree = "<group>"; };
+		848FF74D15B61679004E97E6 /* status-light@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "status-light@2x.png"; sourceTree = "<group>"; };
+		848FF75015B73380004E97E6 /* CMPViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CMPViewController.mm; sourceTree = "<group>"; };
+		84D5C52A156D8F980092CD24 /* Custom MidiPad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Custom MidiPad.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84D5C52E156D8F980092CD24 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		84D5C530156D8F980092CD24 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		84D5C532156D8F980092CD24 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		84D5C536156D8F980092CD24 /* Custom MidiPad-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Custom MidiPad-Info.plist"; sourceTree = "<group>"; };
+		84D5C538156D8F980092CD24 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		84D5C53A156D8F990092CD24 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		84D5C53C156D8F990092CD24 /* Custom MidiPad-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Custom MidiPad-Prefix.pch"; sourceTree = "<group>"; };
+		84D5C53D156D8F990092CD24 /* CMPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CMPAppDelegate.h; sourceTree = "<group>"; };
+		84D5C53E156D8F990092CD24 /* CMPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CMPAppDelegate.m; sourceTree = "<group>"; };
+		84D5C540156D8F990092CD24 /* CMPViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CMPViewController.h; sourceTree = "<group>"; };
+		84D5C544156D8F990092CD24 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CMPViewController_iPhone.xib; sourceTree = "<group>"; };
+		84D5C547156D8F990092CD24 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CMPViewController_iPad.xib; sourceTree = "<group>"; };
+		84D5C54E156D90020092CD24 /* CMPPadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMPPadView.h; sourceTree = "<group>"; };
+		84D5C54F156D90020092CD24 /* CMPPadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMPPadView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84D5C527156D8F980092CD24 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				848FF73A15B5DC5B004E97E6 /* QuartzCore.framework in Frameworks */,
+				848FF72815B49F2C004E97E6 /* CoreMIDI.framework in Frameworks */,
+				84D5C52F156D8F980092CD24 /* UIKit.framework in Frameworks */,
+				84D5C531156D8F980092CD24 /* Foundation.framework in Frameworks */,
+				84D5C533156D8F980092CD24 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		848FF71B15B49F20004E97E6 /* PGMidi */ = {
+			isa = PBXGroup;
+			children = (
+				848FF71C15B49F20004E97E6 /* iOSVersionDetection.h */,
+				848FF71D15B49F20004E97E6 /* PGArc.h */,
+				848FF71E15B49F20004E97E6 /* PGMidi.h */,
+				848FF71F15B49F20004E97E6 /* PGMidi.mm */,
+				848FF72015B49F20004E97E6 /* PGMidiAllSources.h */,
+				848FF72115B49F20004E97E6 /* PGMidiAllSources.mm */,
+				848FF72215B49F20004E97E6 /* PGMidiFind.h */,
+				848FF72315B49F20004E97E6 /* PGMidiFind.mm */,
+			);
+			path = PGMidi;
+			sourceTree = "<group>";
+		};
+		84D5C51F156D8F980092CD24 = {
+			isa = PBXGroup;
+			children = (
+				848FF74215B5F768004E97E6 /* storedSettings.plist */,
+				848FF73915B5DC5B004E97E6 /* QuartzCore.framework */,
+				848FF72E15B4AFEE004E97E6 /* CMPPadDetailsViewController.h */,
+				848FF72F15B4AFEE004E97E6 /* CMPPadDetailsViewController.m */,
+				848FF72715B49F2C004E97E6 /* CoreMIDI.framework */,
+				848FF71B15B49F20004E97E6 /* PGMidi */,
+				84D5C534156D8F980092CD24 /* Custom MidiPad */,
+				84D5C52D156D8F980092CD24 /* Frameworks */,
+				84D5C52B156D8F980092CD24 /* Products */,
+				848FF73115B5B0C2004E97E6 /* grayscalebutton.png */,
+				848FF73215B5B0C2004E97E6 /* grayscalebutton@2x.png */,
+				848FF73515B5B53C004E97E6 /* deletebutton.png */,
+				848FF73615B5B53C004E97E6 /* deletebutton@2x.png */,
+				848FF74C15B61679004E97E6 /* status-light.png */,
+				848FF74D15B61679004E97E6 /* status-light@2x.png */,
+			);
+			sourceTree = "<group>";
+		};
+		84D5C52B156D8F980092CD24 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84D5C52A156D8F980092CD24 /* Custom MidiPad.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84D5C52D156D8F980092CD24 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				84D5C52E156D8F980092CD24 /* UIKit.framework */,
+				84D5C530156D8F980092CD24 /* Foundation.framework */,
+				84D5C532156D8F980092CD24 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		84D5C534156D8F980092CD24 /* Custom MidiPad */ = {
+			isa = PBXGroup;
+			children = (
+				84D5C53D156D8F990092CD24 /* CMPAppDelegate.h */,
+				84D5C53E156D8F990092CD24 /* CMPAppDelegate.m */,
+				84D5C54E156D90020092CD24 /* CMPPadView.h */,
+				84D5C54F156D90020092CD24 /* CMPPadView.m */,
+				84D5C540156D8F990092CD24 /* CMPViewController.h */,
+				848FF75015B73380004E97E6 /* CMPViewController.mm */,
+				84D5C543156D8F990092CD24 /* CMPViewController_iPhone.xib */,
+				84D5C546156D8F990092CD24 /* CMPViewController_iPad.xib */,
+				84D5C535156D8F980092CD24 /* Supporting Files */,
+			);
+			path = "Custom MidiPad";
+			sourceTree = "<group>";
+		};
+		84D5C535156D8F980092CD24 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84D5C536156D8F980092CD24 /* Custom MidiPad-Info.plist */,
+				84D5C537156D8F980092CD24 /* InfoPlist.strings */,
+				84D5C53A156D8F990092CD24 /* main.m */,
+				84D5C53C156D8F990092CD24 /* Custom MidiPad-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84D5C529156D8F980092CD24 /* Custom MidiPad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84D5C54B156D8F990092CD24 /* Build configuration list for PBXNativeTarget "Custom MidiPad" */;
+			buildPhases = (
+				84D5C526156D8F980092CD24 /* Sources */,
+				84D5C527156D8F980092CD24 /* Frameworks */,
+				84D5C528156D8F980092CD24 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Custom MidiPad";
+			productName = "Custom MidiPad";
+			productReference = 84D5C52A156D8F980092CD24 /* Custom MidiPad.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84D5C521156D8F980092CD24 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 84D5C524156D8F980092CD24 /* Build configuration list for PBXProject "Custom MidiPad" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 84D5C51F156D8F980092CD24;
+			productRefGroup = 84D5C52B156D8F980092CD24 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84D5C529156D8F980092CD24 /* Custom MidiPad */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84D5C528156D8F980092CD24 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84D5C539156D8F980092CD24 /* InfoPlist.strings in Resources */,
+				84D5C545156D8F990092CD24 /* CMPViewController_iPhone.xib in Resources */,
+				84D5C548156D8F990092CD24 /* CMPViewController_iPad.xib in Resources */,
+				848FF73315B5B0C2004E97E6 /* grayscalebutton.png in Resources */,
+				848FF73415B5B0C2004E97E6 /* grayscalebutton@2x.png in Resources */,
+				848FF73715B5B53C004E97E6 /* deletebutton.png in Resources */,
+				848FF73815B5B53C004E97E6 /* deletebutton@2x.png in Resources */,
+				848FF74315B5F768004E97E6 /* storedSettings.plist in Resources */,
+				848FF74E15B61679004E97E6 /* status-light.png in Resources */,
+				848FF74F15B61679004E97E6 /* status-light@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84D5C526156D8F980092CD24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84D5C53B156D8F990092CD24 /* main.m in Sources */,
+				84D5C53F156D8F990092CD24 /* CMPAppDelegate.m in Sources */,
+				84D5C550156D90020092CD24 /* CMPPadView.m in Sources */,
+				848FF72415B49F20004E97E6 /* PGMidi.mm in Sources */,
+				848FF72515B49F20004E97E6 /* PGMidiAllSources.mm in Sources */,
+				848FF72615B49F20004E97E6 /* PGMidiFind.mm in Sources */,
+				848FF73015B4AFEE004E97E6 /* CMPPadDetailsViewController.m in Sources */,
+				848FF75115B73380004E97E6 /* CMPViewController.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		84D5C537156D8F980092CD24 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84D5C538156D8F980092CD24 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		84D5C543156D8F990092CD24 /* CMPViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84D5C544156D8F990092CD24 /* en */,
+			);
+			name = CMPViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		84D5C546156D8F990092CD24 /* CMPViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84D5C547156D8F990092CD24 /* en */,
+			);
+			name = CMPViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84D5C549156D8F990092CD24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84D5C54A156D8F990092CD24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84D5C54C156D8F990092CD24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Custom MidiPad/Custom MidiPad-Prefix.pch";
+				INFOPLIST_FILE = "Custom MidiPad/Custom MidiPad-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		84D5C54D156D8F990092CD24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Custom MidiPad/Custom MidiPad-Prefix.pch";
+				INFOPLIST_FILE = "Custom MidiPad/Custom MidiPad-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84D5C524156D8F980092CD24 /* Build configuration list for PBXProject "Custom MidiPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84D5C549156D8F990092CD24 /* Debug */,
+				84D5C54A156D8F990092CD24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84D5C54B156D8F990092CD24 /* Build configuration list for PBXNativeTarget "Custom MidiPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84D5C54C156D8F990092CD24 /* Debug */,
+				84D5C54D156D8F990092CD24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84D5C521156D8F980092CD24 /* Project object */;
+}
